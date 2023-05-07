@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script.js">
+
+    </script>
+</head>
+<body>
+    
+</body>
+    <input type="text" id="iinp"><br>
+    <button id="red" onclick="toggle(event)">RED</button><button id="green" onclick="toggle(event)">GREEN</button>
+    <script>
+        function toggle(e){
+            iinp.value=e.target.id
+            iinp.style.backgroundColor=e.target.id
+        }
+    </script>
+</html>
